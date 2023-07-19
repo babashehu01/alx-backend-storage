@@ -19,4 +19,4 @@ def list_all(mongo_collection):
     for document in mongo_collection.find():
         documents.append(document)
 
-    return document
+    return documents
